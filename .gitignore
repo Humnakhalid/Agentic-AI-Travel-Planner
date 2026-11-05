@@ -1,0 +1,44 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+# Backend Python environment
+backend/.venv/
+backend/__pycache__/
+__pycache__/
+*.pyc
+
+# Backend secrets and local databases
+backend/.env
+backend/*.db
+backend/*.db-*
